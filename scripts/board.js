@@ -40,7 +40,7 @@ function loadSprites(){
 let cactusArray = [];
 function loadCactus(){
     
-    const cactusArr = ['../images/cactus1.png','../images/cactus2.png'];
+    const cactusArr = ['./images/cactus1.png','./images/cactus2.png'];
     let GAP = 1;
     for (var c of cactusArr){
         const cactus = new Cactus(GAME_WIDTH*GAP, GAME_HEIGHT-60, 70, 156, c);
