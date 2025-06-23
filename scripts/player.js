@@ -7,8 +7,8 @@ export class Player{
         this.w=60;
         this.y = GAME_HEIGHT-(this.h+10);
         this.image = new Image();
-        //this.image.src="../images/dino.png"
-        this.runImages = ['../images/run1.png', '../images/run2.png'];
+        //this.image.src="./images/dino.png"
+        this.runImages = ['./images/run1.png', './images/run2.png'];
         this.index=0;
         this.image.src = this.runImages[this.index];
         this.isJumping=false;
