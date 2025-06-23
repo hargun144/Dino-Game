@@ -1,0 +1,16 @@
+#canvas {
+    border: 1px solid black;
+    margin : 0;
+}
+#frame {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+   
+}
+header {
+  text-align: center;
+  margin-top: 30px;       /* ← Reduced spacing */
+  margin-bottom: 10px;
+}
