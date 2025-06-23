@@ -7,7 +7,7 @@ export class Floor{
         this.w=525;
         this.y=GAME_HEIGHT-this.h;
         this.image= new Image();
-        this.image.src="../images/floor.png";
+        this.image.src="./images/floor.png";
         this.speed = SPEED;
     }
     draw(context){
